@@ -74,6 +74,9 @@ switch (user) {
                             else {
                                 console.log("What? Too late the boar has gored you to death with its tusks. R.I.P");
                             }
+                        if (direction === "right" && secondDirection === "left" || secondDirection === "right") {
+                            console.log("Congratulations, after a close call with the boar you were victorious!");
+                        }
                         break;
                     
                 }
